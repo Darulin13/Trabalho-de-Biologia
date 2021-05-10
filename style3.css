@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: solid;
+}
+a{
+    font-size: 400;
+    font-family: 'Montserrat', sans-serif;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+}
