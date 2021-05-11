@@ -3,6 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+.pseudoheader{
+    display: flex;
+    flex-direction: column;
+    padding-left:3vh ;
+    padding-top:3vh ;
+    height: 40vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(standard_compressed_8143427835_7d42aebb2f_o.jpg);
+}
+.textinicio{
+    color:white;
+    font-size: 10vh;
+}
+h1{
+    font-size: 9vh;
+    color: White;
+    font-family: 'Krona One', sans-serif;
+}
 footer{
     width: 100%;
     background-color: white;
@@ -19,4 +38,25 @@ a{
     flex-direction: row;
     text-decoration: none;
     color: black;
+}
+p{
+    font-family:'Montserrat', sans-serif ;
+    font-weight: 200;
+    width: 80%;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+}
+h2{
+    width: 80%;
+    
+}
+.texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+img{
+    width: 80%;
 }
