@@ -65,8 +65,12 @@ footer{
     display: flex;
     justify-content: center;
     border: solid;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
 }
 a{
+   font-weight: 700;
+    color: white; 
     font-family: 'Montserrat', sans-serif;
     width: 20%;
     display: flex;
@@ -84,6 +88,8 @@ p{
 }
 h2{
     width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     
 }
 .texto{
@@ -172,8 +178,8 @@ h2{
       a{
           font-size: large;
           text-decoration: none;
-          color: white;
+          color: black;
           font-family: 'Montserrat', sans-serif;
-          font-weight: 400;
+          font-weight: 900;
       }
 }

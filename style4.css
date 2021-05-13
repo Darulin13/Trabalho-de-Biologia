@@ -24,14 +24,16 @@ h1{
 }
 footer{
     width: 100%;
-    background-color: white;
+    background-color: rgb(180, 142, 94);
     display: flex;
     justify-content: center;
     border: solid;
+    font-size: 700;
+    font-family: 'Montserrat', sans-serif;
 }
 a{
-    font-size: 400;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     width: 20%;
     display: flex;
     justify-content: center;
@@ -40,14 +42,17 @@ a{
     color: black;
 }
 p{
-    font-family:'Montserrat', sans-serif ;
-    font-weight: 200;
-    width: 80%;
-    padding-bottom: 3vh;
-    padding-top: 3vh;
+        font-family:'Montserrat', sans-serif ;
+        font-weight: 300;
+        width: 80%;
+        padding-bottom: 3vh;
+        padding-top: 3vh;
+
 }
 h2{
     width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     
 }
 .texto{

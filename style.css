@@ -123,12 +123,30 @@ a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+
 }
 /*Header*/
+a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
 .titulo{
-    font-family: 'Krona One', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    display: flex;
-    justify-content: space-around;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  display: flex;
+  justify-content: space-around;
+}
+body{
+  background: #81ecec;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  padding-top: 2vh;
+}
+p{
+  font-family:'Montserrat', sans-serif ;
+    font-weight: 300;
+    
 }

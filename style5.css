@@ -9,6 +9,19 @@ main{
     justify-content: center;
     align-items: center;
 }
+header{
+    width: 100%;
+    background-color: rgb(180, 142, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+}
+.voltar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 img{
     width: 80%;
 }
@@ -29,6 +42,7 @@ ul{
 }
 
 footer{
+    border: solid;
     flex-wrap: wrap;
     width: 100%;
     background-color: greenyellow;
@@ -36,8 +50,8 @@ footer{
     flex-direction: column;
 }
 a{
-    font-size: 400;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     width: 100%;
     border: solid 2px;
     display: flex;
